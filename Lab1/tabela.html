@@ -1,0 +1,76 @@
+﻿<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link href="./styles/style.css" rel="stylesheet">
+	<title>Projektowanie Stron WWW - Lab1</title>
+
+	<script src="scripts\scr_createElem.js" type="text/javascript">addElement();</script>
+	<!-- <script src="scripts\src_lab1Text.js" type="text/javascript">lab1Text();</script>		
+		<script src="scripts\src_lab2Text.js" type="text/javascript">lab2Text();</script>		
+		<script src="scripts\src_contactText.js" type="text/javascript">contactText();</script> -->
+
+</head>
+
+<header>
+	<img src="images\img_title.png" alt="ImageError" height="130px" ; width="600px" ; />
+</header>
+
+<body>
+	<aside>
+		<img src="images\img_menu.png" alt="ImageError" height="50px" ; width="200px" ; />
+		<a class="a_link_ret" href="index.html">
+			<p class="link">Powrót...</p>
+		</a>
+		<a class="a_link_ret" href="drugi.html">
+			<p class="link">Artykuł</p>
+		</a>
+		<a class="a_link_ret" href="https://zacniewski.github.io/teaching/2018-serwisy-WWW" target="_blank">
+			<p class="link">Adres Zewnętrzny</p>
+		</a>
+	</aside>
+
+	<div id="art1" class="content">
+		<h3>Konsultacje:</h3>
+		<table>
+			<tr>
+				<td>Rok szkolny</td>
+				<td>Miesiąc</td>
+				<td>Dzień</td>
+				<td>Godzina</td>
+				<td>Sala</td>
+			</tr>
+			<tr>
+				<td rowspan="2">2018 - 2019</td>
+				<td>październik-styczeń</td>
+				<td>poniedziałek</td>
+				<td>8:00</td>
+				<td rowspan="2">119/353</td>
+			</tr>
+			<tr>
+				<td>luty-czerwiec</td>
+				<td>środa</td>
+				<td>14:20</td>
+			</tr>
+		</table>	
+
+		<iframe class="frame" src="https://amw.gdynia.pl/" width="300" 
+		height="200">
+	  </iframe>
+
+	  <button onclick="addElement()">Kliknij</button>
+	</div>
+
+</body>
+
+<footer>
+	<p class="myName">
+		<marquee behavior="alternate"><br />Łukasz Rydziński 165NCI</marquee>
+	</p>
+	<p class="lastMod">Ostatnia aktualizacja:
+		<script src="scripts\scr_lastModified.js"></script>
+	</p>
+</footer>
+
+</html>
