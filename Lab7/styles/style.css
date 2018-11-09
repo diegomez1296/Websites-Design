@@ -1,0 +1,171 @@
+html
+{
+	width: 960px;
+	height: max;
+	margin: auto;
+	background: #404040;
+}
+/* .clearfix::before{
+	content: "";
+	display: block;
+	clear: both;
+} */
+header
+{
+	text-align: center; 
+}
+body
+{
+	background: #404040;
+}
+/* .wrapper{
+	height: 100vh;
+	max-width: 1200px;
+	margin: 0 auto
+} */
+
+.allContent {
+	min-height: 300px;
+	background-color: #494949;
+}
+aside
+{
+	width: 200px;
+	height: 100%;
+	background: #494949;
+	text-align: center;
+	float: left;
+}
+
+p.link
+{
+	color: #e1c00b;
+	font-family: gabriola, sans-serif;
+	font-size: 20px;
+}
+
+p.link:hover
+{
+	cursor: pointer;
+	background: #606060;
+	font-style: bold ;
+}
+
+p.link2
+{
+	color: #e1c00b;
+	font-family: gabriola, sans-serif;
+	font-size: 20px;
+	width: 60px;
+	border-radius: 10px;
+}
+
+p.link2:hover
+{
+	cursor: pointer;
+	background: #494949;
+	font-style: bold ;
+}
+
+.content 
+{
+	position: relative;
+	/* top: -3.75px; */
+	padding: 35px;
+	/* min-height: 380px; */
+	background: #606060;
+	margin-left: 200px;
+	/* margin-top: 50px; */
+	color: #000000;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+}
+
+footer
+{
+	margin-top: -16px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background: #494949;
+	color: #808080;
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.myName
+{
+	color: #e1c00b;
+}
+
+.lastMod
+{
+	
+	text-align: right;
+}
+
+
+/* drugi.html */
+.a_link_ret
+{
+	text-decoration-line: none;
+}
+
+table, tr, td
+{
+	border: 1px solid #000000;
+	border-spacing: 2cm;
+	border-collapse: collapse;
+	padding: 10px;
+	margin-top: 10px;
+	text-align:center;
+	font-size: 20px;
+}
+
+.article_button
+{
+	background-color: #404040;
+    border: none;
+    color: #e1c00b;
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.article_button:hover
+{
+	background-color: #303030;
+	color: #e1c00b;
+	cursor: pointer;
+}
+
+.frame
+{
+	margin-left: 25%;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.menu_img{
+	float: left;
+	
+}
+
